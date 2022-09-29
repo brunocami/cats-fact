@@ -1,0 +1,24 @@
+.component_container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    border: 2px ridge gray;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .component_container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .component_container {
+        width: 100%;
+    }
+}
