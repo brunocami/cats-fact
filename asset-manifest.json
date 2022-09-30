@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/brunocami/cats-fact/static/css/main.b4f6b1ec.css",
-    "main.js": "/brunocami/cats-fact/static/js/main.93804cfe.js",
-    "index.html": "/brunocami/cats-fact/index.html",
-    "main.b4f6b1ec.css.map": "/brunocami/cats-fact/static/css/main.b4f6b1ec.css.map",
-    "main.93804cfe.js.map": "/brunocami/cats-fact/static/js/main.93804cfe.js.map"
+    "main.css": "/cats-fact/static/css/main.b4f6b1ec.css",
+    "main.js": "/cats-fact/static/js/main.93804cfe.js",
+    "index.html": "/cats-fact/index.html",
+    "main.b4f6b1ec.css.map": "/cats-fact/static/css/main.b4f6b1ec.css.map",
+    "main.93804cfe.js.map": "/cats-fact/static/js/main.93804cfe.js.map"
   },
   "entrypoints": [
     "static/css/main.b4f6b1ec.css",
