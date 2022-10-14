@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css';
-import Cats from './coponents/Cats';
-import Header from './coponents/Header';
+import Cats from './components/Cats';
+import Header from './components/Header';
 import { Canvas } from '@react-three/fiber';
 import { Stars } from '@react-three/drei';
-import Kiwi from './coponents/Kiwi';
+import Kiwi from './components/Kiwi';
 
 function App() {
   return (
