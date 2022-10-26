@@ -6,9 +6,10 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Kiwi(props) {
+  const group = useRef()
   const { nodes, materials } = useGLTF('/kiwi/food_kiwi_01_4k.gltf')
   return (
-    <group {...props} dispose={null}>
+    <group ref={group} {...props} dispose={null}>
       <mesh geometry={nodes.food_kiwi_01.geometry} material={materials.food_kiwi_01} />
     </group>
   )
